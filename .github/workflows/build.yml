@@ -2,7 +2,7 @@ name: "Build & Test"
 on: [push, pull_request]
 
 jobs:    
-  macOS:
+  OSx:
     runs-on: macos-latest
     timeout-minutes: 30
     env:
